@@ -1,5 +1,7 @@
 
-  [
+  {
+    "beers":
+    [
   {
     "id": 1,
     "name": "DFPF",
@@ -654,4 +656,4 @@
     "favorite": false
   }
 ]
-  
+}
