@@ -9,7 +9,7 @@
     "family": "Ale",
     "alcohol": 7.0,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/Berliner_Weisse-DFPF.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975541/Berliner_Weisse-DFPF_xpwih9.webp",
     "favorite": false
   },
   {
@@ -19,7 +19,7 @@
     "family": "Ale",
     "alcohol": 3.5,
     "pais": "Belgica",
-    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739974661/va8oqs68plhsy4tgoyno.avif",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975556/Lindemans-removebg-preview_p69hsb.png",
     "favorite": false
   },
   {
@@ -29,7 +29,7 @@
     "family": "Ale",
     "alcohol": 8.5,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/Belgian_Gold_Ale-Duvel.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975541/Belgian_Gold_Ale-Duvel_zniwyk.png",
     "favorite": true
   },
   {
@@ -39,7 +39,7 @@
     "family": "Ale",
     "alcohol": 5.4,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/Belgian_White-BlueMoon.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975541/Belgian_White-BlueMoon_ldt2ry.webp",
     "favorite": true
   },
   {
@@ -49,7 +49,7 @@
     "family": "Ale",
     "alcohol": 5.0,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/Gueuze-St_Louis.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975551/Gueuze-St_Louis_iqwlvj.png",
     "favorite": false
   },
   {
@@ -59,7 +59,7 @@
     "family": "Ale",
     "alcohol": 8.5,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/Triple-Leffe.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975563/Triple-Leffe_nbmz3u.png",
     "favorite": true
   },
   {
@@ -69,7 +69,7 @@
     "family": "Ale",
     "alcohol": 5.8,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/American_Wheat-Oberon_Ale.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975540/American_Wheat-Oberon_Ale_xfnfob.png",
     "favorite": false
   },
   {
@@ -79,7 +79,7 @@
     "family": "Ale",
     "alcohol": 4.0,
     "pais": "Belgica",
-    "img": "../public/data/beers/Faro-Timmermans.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975550/Faro-Timmermans_hrgjad.png",
     "favorite": false
   },
   {
@@ -89,7 +89,7 @@
     "family": "Ale",
     "alcohol": 6.5,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/Saison-Saison_Dupont.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975558/Saison-Saison_Dupont_ixxd9f.webp",
     "favorite": true
   },
   {
@@ -99,7 +99,7 @@
     "family": "Ale",
     "alcohol": 5.6,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/Pale_Ale-Sierra_Nevada.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975557/Pale_Ale-Sierra_Nevada_k6obwy.png",
     "favorite": false
 
   },
@@ -110,7 +110,7 @@
     "family": "Lager",
     "alcohol": 4.2,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/American_Lite-Miller_Lite-removebg-preview.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975540/American_Lite-Miller_Lite-removebg-preview_t56opx.png",
     "favorite": false
   },
   {
@@ -120,7 +120,7 @@
     "family": "Lager",
     "alcohol": 4.9,
     "pais": "Alemania",
-    "img": "json-server/public/data/beers/munich_helles-Paulaner_munich_helles.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975557/munich_helles-Paulaner_munich_helles_mkykjn.png",
     "favorite": true
   },
   {
@@ -130,7 +130,7 @@
     "family": "Lager",
     "alcohol": 6.5,
     "pais": "España",
-    "img": "json-server/public/data/beers/Helles_Bock-1906_Reserva_Especial.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975552/Helles_Bock-1906_Reserva_Especial_o9r8eb.png",
     "favorite": true
   },
   {
@@ -140,7 +140,7 @@
     "family": "Ale",
     "alcohol": 5.0,
     "pais": "Alemania",
-    "img": "json-server/public/data/beers/Weizenbier-franziskaner.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739976497/Weizenbier-franziskaner_muw4kr.png",
     "favorite": false
   },
   {
@@ -150,7 +150,7 @@
     "family": "Ale",
     "alcohol": 8.0,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/fruit_beer-chouffe_cherry.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975551/fruit_beer-chouffe_cherry_wuoit3.webp",
     "favorite": false
   },
   {
@@ -160,7 +160,7 @@
     "family": "Ale",
     "alcohol": 6.7,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/belgian_pale_ale-grimbergen.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975541/belgian_pale_ale-grimbergen_txeqmv.png",
     "favorite": true
   },
   {
@@ -170,7 +170,7 @@
     "family": "Ale",
     "alcohol": 4.7,
     "pais": "España",
-    "img": "json-server/public/data/beers/American_pale_Ale-Douglass.jpg",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975540/American_pale_Ale-Douglass_dotykl.png",
     "favorite": false
   },
   {
@@ -180,7 +180,7 @@
     "family": "Ale",
     "alcohol": 3.4,
     "pais": "Brasil",
-    "img": "json-server/public/data/beers/Ordinary_Bitter-Exu_Caveira.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975557/Ordinary_Bitter-Exu_Caveira_rwoqxs.png",
     "favorite": false
   },
   {
@@ -190,7 +190,7 @@
     "family": "Ale",
     "alcohol": 3.7,
     "pais": "Escocia",
-    "img": "json-server/public/data/beers/Scottish_light-Sixty_shilling.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975563/Scottish_light-Sixty_shilling_jhks8m.png",
     "favorite": false
   },
   {
@@ -200,7 +200,7 @@
     "family": "Ale",
     "alcohol": 3.5,
     "pais": "UK",
-    "img": "json-server/public/data/beers/english_mild-wallenpaupack-removebg-preview.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975547/english_mild-wallenpaupack-removebg-preview_zgpev0.png",
     "favorite": false
   },
   {
@@ -210,7 +210,7 @@
     "family": "Ale",
     "alcohol": 6.0,
     "pais": "Irlanda",
-    "img": "json-server/public/data/beers/Dry_stout-oharas.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975546/Dry_stout-oharas_kefova.webp",
     "favorite": false
   },
   {
@@ -220,7 +220,7 @@
     "family": "Ale",
     "alcohol": 7.5,
     "pais": "Irlanda",
-    "img": "json-server/public/data/beers/foreign_extra_stout-Guinness.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975551/foreign_extra_stout-Guinness_qupgkk.png",
     "favorite": true
   },
   {
@@ -230,7 +230,7 @@
     "family": "Lager",
     "alcohol": 5.2,
     "pais": "España",
-    "img": "json-server/public/data/beers/AMBAR.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975539/AMBAR_ogkvei.png",
     "favorite": true
 
   },
@@ -241,7 +241,7 @@
     "family": "Lager",
     "alcohol": 4.8,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/american_standard-budweiser.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975540/american_standard-budweiser_fmpanl.webp",
     "favorite": false
   },
   {
@@ -251,7 +251,7 @@
     "family": "Lager",
     "alcohol": 5.0,
     "pais": "Alemania",
-    "img": "json-server/public/data/beers/dortmunder-DAB.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975546/dortmunder-DAB_ylb11z.png",
     "favorite": false
   },
   {
@@ -261,7 +261,7 @@
     "family": "Lager",
     "alcohol": 14.0,
     "pais": "Austria",
-    "img": "json-server/public/data/beers/doppelbock-samiclaus.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975546/doppelbock-samiclaus_bhwgna.png",
     "favorite": true
   },
   {
@@ -271,7 +271,7 @@
     "family": "Ale",
     "alcohol": 5.3,
     "pais": "Alemania",
-    "img": "json-server/public/data/beers/dunkelweizen-erdinger.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975547/dunkelweizen-erdinger_ui7a1l.webp",
     "favorite": false
   },
   {
@@ -281,7 +281,7 @@
     "family": "Ale",
     "alcohol": 5.0,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/flanders_red-bourgogne-des-flanders.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975550/flanders_red-bourgogne-des-flanders_yhroez.png",
     "favorite": false
   },
   {
@@ -291,7 +291,7 @@
     "family": "Ale",
     "alcohol": 10.5,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/belgian-_dark_ale-gulden-draak-classic.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975541/belgian-_dark_ale-gulden-draak-classic_av83yx.webp",
     "favorite": true
   },
   {
@@ -301,7 +301,7 @@
     "family": "Ale",
     "alcohol": 5.7,
     "pais": "España",
-    "img": "json-server/public/data/beers/ambar-ipa-1.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975540/ambar-ipa-1_or1oc8.png",
     "favorite": true
   },
   {
@@ -311,7 +311,7 @@
     "family": "Ale",
     "alcohol": 5.3,
     "pais": "Nuevo Zelanda",
-    "img": "json-server/public/data/beers/Special_bitter-OldHouse-ESB.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975562/Special_bitter-OldHouse-ESB_uwsm8y.webp",
     "favorite": false
   },
   {
@@ -321,7 +321,7 @@
     "family": "Ale",
     "alcohol": 3.9,
     "pais": "Escocia",
-    "img": "json-server/public/data/beers/Scottish_heavy_70-heavy-lifting.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975558/Scottish_heavy_70-heavy-lifting_fihcyt.webp",
     "favorite": false
     
   },
@@ -332,7 +332,7 @@
     "family": "Ale",
     "alcohol": 5.0,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/american_brown-downton_brown.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975540/american_brown-downton_brown_jqvnjr.webp",
     "favorite": false
   },
   {
@@ -342,7 +342,7 @@
     "family": "Ale",
     "alcohol": 5.4,
     "pais": "UK",
-    "img": "json-server/public/data/beers/fuller_porter.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975551/fuller_porter_ldmlmw.png",
     "favorite": false
   },
   {
@@ -352,7 +352,7 @@
     "family": "Ale",
     "alcohol": 6.5,
     "pais": "UK",
-    "img": "json-server/public/data/beers/st_peters_cream_stout-sweet_stout.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975562/st_peters_cream_stout-sweet_stout_hczzno.webp",
     "favorite": false 
   },
   {
@@ -362,7 +362,7 @@
     "family": "Ale",
     "alcohol": 7.0,
     "pais": "UK",
-    "img": "json-server/public/data/beers/samuel-smith-imperial-stout.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975558/samuel-smith-imperial-stout_cprpoz.png",
     "favorite": true
   },
   {
@@ -372,7 +372,7 @@
     "family": "Lager",
     "alcohol": 5.3,
     "pais": "México",
-    "img": "json-server/public/data/beers/bohemian-pilsner-bohemia.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975545/bohemian-pilsner-bohemia_dmejhp.webp",
     "favorite": true
   },
   {
@@ -382,7 +382,7 @@
     "family": "Lager",
     "alcohol": 4.5,
     "pais": "México",
-    "img": "json-server/public/data/beers/american-premium_Corona.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975541/american-premium_Corona_ikuuja.png",
     "favorite": false
   },
   {
@@ -402,7 +402,7 @@
     "family": "Lager",
     "alcohol": 7.0,
     "pais": "Alemania",
-    "img": "json-server/public/data/beers/tradional-bock_samson.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975563/tradional-bock_samson_cghrki.webp",
     "favorite": false
   },
   {
@@ -412,7 +412,7 @@
   "family": "Ale",
   "alcohol": 7.1,
   "pais": "Alemania",
-  "img": "json-server/public/data/beers/ayinger-weizenbock.png",
+  "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975541/ayinger-weizenbock_pff9ml.png",
   "favorite": false
   },
   {
@@ -432,7 +432,7 @@
     "family": "Ale",
     "alcohol": 7.0,
     "pais": "Holanda",
-    "img": "json-server/public/data/beers/la-trappe-dubbel.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975556/la-trappe-dubbel_t13vzq.png",
     "favorite": false
   },
   {
@@ -442,7 +442,7 @@
     "family": "Ale",
     "alcohol": 5.7,
     "pais": "España",
-    "img": "json-server/public/data/beers/cornamusa-1.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975546/cornamusa-1_vvmunk.png",
     "favorite": false
   },
   {
@@ -452,7 +452,7 @@
     "family": "Ale",
     "alcohol": 6.0,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/Extra-special-bitter_de-ranke-xx-bitter.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975547/Extra-special-bitter_de-ranke-xx-bitter_c83fgc.png",
     "favorite": false
   },
   {
@@ -462,7 +462,7 @@
     "family": "Ale",
     "alcohol": 5.6,
     "pais": "Escocia",
-    "img": "json-server/public/data/beers/Fierce-Export-Scottish-Ale.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975550/Fierce-Export-Scottish-Ale_ed7edv.png",
     "favorite": false
   },
   {
@@ -472,7 +472,7 @@
     "family": "Ale",
     "alcohol": 4.7,
     "pais": "UK",
-    "img": "json-server/public/data/beers/newcastle-brown-ale.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975557/newcastle-brown-ale_ue8rqo.png",
     "favorite": false
   },
   {
@@ -482,7 +482,7 @@
     "family": "Ale",
     "alcohol": 7.2,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/Port-City-Robust-Porter.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975558/Port-City-Robust-Porter_pxpabi.png",
     "favorite": false
   },
   {
@@ -492,7 +492,7 @@
     "family": "Ale",
     "alcohol": 6.0,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/East-Brother_OatmealStout.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975547/East-Brother_OatmealStout_fxtdzh.png",
     "favorite": false
   },
   {
@@ -502,7 +502,7 @@
     "family": "Ale",
     "alcohol": 10.4,
     "pais": "España",
-    "img": "json-server/public/data/beers/dimitri-removebg-preview.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975546/dimitri-removebg-preview_dw7i9g.png",
     "favorite": true
   },
   {
@@ -512,7 +512,7 @@
     "family": "Lager",
     "alcohol": 4.2,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/coors.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975545/coors_tlgrfb.png",
     "favorite": false
   },
   {
@@ -522,7 +522,7 @@
     "family": "Lager",
     "alcohol": 4.9,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/AmericanDarkLarger_leinenkugel.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975540/AmericanDarkLarger_leinenkugel_okxuuu.png",
     "favorite": false 
   },
   {
@@ -532,7 +532,7 @@
     "family": "Lager",
     "alcohol": 4.8,
     "pais": "Alemania",
-    "img": "json-server/public/data/beers/kostritzer.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975556/kostritzer_i2fimz.png",
     "favorite": true
   },
   {
@@ -552,7 +552,7 @@
     "family": "Mixed",
     "alcohol": 4.8,
     "pais": "Alemania",
-    "img": "json-server/public/data/beers/Kolsch-fruh.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975552/Kolsch-fruh_qo60mp.webp",
     "favorite": false
   },
   {
@@ -562,7 +562,7 @@
     "family": "Mixed",
     "alcohol": 7.2,
     "pais": "Francia",
-    "img": "json-server/public/data/beers/La-goudale-removebg-preview.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975556/La-goudale-removebg-preview_kkn8cn.png",
     "favorite": false
   },
   {
@@ -572,7 +572,7 @@
     "family": "Mixed",
     "alcohol": 6.0,
     "pais": "Alemania",
-    "img": "json-server/public/data/beers/paulaner_oktoberfest.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975558/paulaner_oktoberfest_vfjrry.png",
     "favorite": false
   },
   {
@@ -582,7 +582,7 @@
     "family": "Mixed",
     "alcohol": 5.0,
     "pais": "España",
-    "img": "json-server/public/data/beers/antiga-cream-ale.jpg",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975541/antiga-cream-ale_vevdpw.png",
     "favorite": false
   },
   {
@@ -592,7 +592,7 @@
     "family": "Mixed",
     "alcohol": 10.5,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/gulden-draak-smoked-33cl.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975551/gulden-draak-smoked-33cl_a67p5e.webp",
     "favorite": true
   },
   {
@@ -602,7 +602,7 @@
     "family": "Mixed",
     "alcohol": 6.5,
     "pais": "UK",
-    "img": "json-server/public/data/beers/1698-english-old-strong-beer.avif",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975539/1698-english-old-strong-beer_d9cbt9.avif",
     "favorite": false
   },
   {
@@ -612,7 +612,7 @@
     "family": "Mixed",
     "alcohol": 4.7,
     "pais": "Alemania",
-    "img": "json-server/public/data/beers/Uerige-Altbier.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975564/Uerige-Altbier_qnjxgl.png",
     "favorite": false
   },
   {
@@ -622,7 +622,7 @@
     "family": "Mixed",
     "alcohol": 5.2,
     "pais": "Austria",
-    "img": "json-server/public/data/beers/Gosser__vienna-removebg-preview.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975552/Gosser__vienna-removebg-preview_irmott.png",
     "favorite": false
   },
   {
@@ -632,7 +632,7 @@
     "family": "Mixed",
     "alcohol": 4.9,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/anchor_steam_beer.webp",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975541/anchor_steam_beer_t0tqhs.webp",
     "favorite": false
   },
   {
@@ -642,7 +642,7 @@
     "family": "Mixed",
     "alcohol": 9.6,
     "pais": "EEUU",
-    "img": "json-server/public/data/beers/sierra-nevada-bigfoot-removebg-preview.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975563/sierra-nevada-bigfoot-removebg-preview_tp2hco.png",
     "favorite": true
   },
   {
@@ -652,7 +652,7 @@
     "family": "Mixed",
     "alcohol": 6.0,
     "pais": "Escocia",
-    "img": "json-server/public/data/beers/tennent-s-scotch-ale-33cl-removebg-preview.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739975563/tennent-s-scotch-ale-33cl-removebg-preview_dteojo.png",
     "favorite": false
   }
 ]
