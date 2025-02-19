@@ -1,13 +1,657 @@
-{
-  "posts": [
-    { "id": "1", "title": "a title" },
-    { "id": "2", "title": "another title" }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
+
+  [
+  {
+    "id": 1,
+    "name": "DFPF",
+    "type": "Berliner Weisse",
+    "family": "Ale",
+    "alcohol": 7.0,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/Berliner_Weisse-DFPF.webp",
+    "favorite": false
+  },
+  {
+    "id": 2,
+    "name": "Lindemans",
+    "type": "Lambic",
+    "family": "Ale",
+    "alcohol": 3.5,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/Lindemans-removebg-preview.png",
+    "favorite": false
+  },
+  {
+    "id": 3,
+    "name": "Duvel",
+    "type": "Belgian Gold Ale",
+    "family": "Ale",
+    "alcohol": 8.5,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/Belgian_Gold_Ale-Duvel.png",
+    "favorite": true
+  },
+  {
+    "id": 4,
+    "name": "Blue Moon",
+    "type": "Belgian White",
+    "family": "Ale",
+    "alcohol": 5.4,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/Belgian_White-BlueMoon.webp",
+    "favorite": true
+  },
+  {
+    "id": 5,
+    "name": "St. Louis",
+    "type": "Gueuze",
+    "family": "Ale",
+    "alcohol": 5.0,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/Gueuze-St_Louis.png",
+    "favorite": false
+  },
+  {
+    "id": 6,
+    "name": "Leffe",
+    "type": "Triple",
+    "family": "Ale",
+    "alcohol": 8.5,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/Triple-Leffe.png",
+    "favorite": true
+  },
+  {
+    "id": 7,
+    "name": "Oberon Ale",
+    "type": "American Wheat Ale",
+    "family": "Ale",
+    "alcohol": 5.8,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/American_Wheat-Oberon_Ale.png",
+    "favorite": false
+  },
+  {
+    "id": 8,
+    "name": "Timmermans",
+    "type": "Faro",
+    "family": "Ale",
+    "alcohol": 4.0,
+    "pais": "Belgica",
+    "img": "../public/data/beers/Faro-Timmermans.png",
+    "favorite": false
+  },
+  {
+    "id": 9,
+    "name": "Saison Dupont",
+    "type": "Saison",
+    "family": "Ale",
+    "alcohol": 6.5,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/Saison-Saison_Dupont.webp",
+    "favorite": true
+  },
+  {
+    "id": 10,
+    "name": "Sierra nevada Pale Ale",
+    "type": "Pale Ale",
+    "family": "Ale",
+    "alcohol": 5.6,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/Pale_Ale-Sierra_Nevada.png",
+    "favorite": false
+
+  },
+  {
+    "id": 11,
+    "name": "Miller Lite",
+    "type": "American Lite",
+    "family": "Lager",
+    "alcohol": 4.2,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/American_Lite-Miller_Lite-removebg-preview.png",
+    "favorite": false
+  },
+  {
+    "id": 12,
+    "name": "Paulaner Munich Helles",
+    "type": " Munich Helles",
+    "family": "Lager",
+    "alcohol": 4.9,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/munich_helles-Paulaner_munich_helles.png",
+    "favorite": true
+  },
+  {
+    "id": 13,
+    "name": "1906 Reserva Especial",
+    "type": "Helles Bock",
+    "family": "Lager",
+    "alcohol": 6.5,
+    "pais": "España",
+    "img": "json-server/public/data/beers/Helles_Bock-1906_Reserva_Especial.png",
+    "favorite": true
+  },
+  {
+    "id": 14,
+    "name": "Franziskaner Weissbier",
+    "type": "Weissbier",
+    "family": "Ale",
+    "alcohol": 5.0,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/Weizenbier-franziskaner.png",
+    "favorite": false
+  },
+  {
+    "id": 15,
+    "name": "Chouffe Cherry",
+    "type": "Fruit Beer",
+    "family": "Ale",
+    "alcohol": 8.0,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/fruit_beer-chouffe_cherry.webp",
+    "favorite": false
+  },
+  {
+    "id": 16,
+    "name": "Grimbergen",
+    "type": "Belgian Pale Ale",
+    "family": "Ale",
+    "alcohol": 6.7,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/belgian_pale_ale-grimbergen.png",
+    "favorite": true
+  },
+  {
+    "id": 17,
+    "name": "Dougall's",
+    "type": "American Pale Ale",
+    "family": "Ale",
+    "alcohol": 4.7,
+    "pais": "España",
+    "img": "json-server/public/data/beers/American_pale_Ale-Douglass.jpg",
+    "favorite": false
+  },
+  {
+    "id": 18,
+    "name": "Exu Caveira",
+    "type": "Ordinary Bitter",
+    "family": "Ale",
+    "alcohol": 3.4,
+    "pais": "Brasil",
+    "img": "json-server/public/data/beers/Ordinary_Bitter-Exu_Caveira.png",
+    "favorite": false
+  },
+  {
+    "id": 19,
+    "name": "Sixty Shilling",
+    "type": "Scottish light 60",
+    "family": "Ale",
+    "alcohol": 3.7,
+    "pais": "Escocia",
+    "img": "json-server/public/data/beers/Scottish_light-Sixty_shilling.png",
+    "favorite": false
+  },
+  {
+    "id": 20,
+    "name": "Wallenpaupack",
+    "type": "English Mild",
+    "family": "Ale",
+    "alcohol": 3.5,
+    "pais": "UK",
+    "img": "json-server/public/data/beers/english_mild-wallenpaupack-removebg-preview.png",
+    "favorite": false
+  },
+  {
+    "id": 21,
+    "name": "O'Hara's",
+    "type": "Dry Stout",
+    "family": "Ale",
+    "alcohol": 6.0,
+    "pais": "Irlanda",
+    "img": "json-server/public/data/beers/Dry_stout-oharas.webp",
+    "favorite": false
+  },
+  {
+    "id": 22,
+    "name": "Guinness",
+    "type": "Foreign extra Stout",
+    "family": "Ale",
+    "alcohol": 7.5,
+    "pais": "Irlanda",
+    "img": "json-server/public/data/beers/foreign_extra_stout-Guinness.png",
+    "favorite": true
+  },
+  {
+    "id": 23,
+    "name": "Ambar",
+    "type": "German pilsen",
+    "family": "Lager",
+    "alcohol": 5.2,
+    "pais": "España",
+    "img": "json-server/public/data/beers/AMBAR.png",
+    "favorite": true
+
+  },
+  {
+    "id": 24,
+    "name": "Budweiser",
+    "type": "American Standard",
+    "family": "Lager",
+    "alcohol": 4.8,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/american_standard-budweiser.webp",
+    "favorite": false
+  },
+  {
+    "id": 25,
+    "name": "DAB",
+    "type": "Dortmunder",
+    "family": "Lager",
+    "alcohol": 5.0,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/dortmunder-DAB.png",
+    "favorite": false
+  },
+  {
+    "id": 26,
+    "name": "Samichlaus",
+    "type": "Doppelbock",
+    "family": "Lager",
+    "alcohol": 14.0,
+    "pais": "Austria",
+    "img": "json-server/public/data/beers/doppelbock-samiclaus.png",
+    "favorite": true
+  },
+  {
+    "id": 27,
+    "name": "Erdinger",
+    "type": "Dunkelweizen",
+    "family": "Ale",
+    "alcohol": 5.3,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/dunkelweizen-erdinger.webp",
+    "favorite": false
+  },
+  {
+    "id": 28,
+    "name": "Bourgogne des Flandres",
+    "type": "Flanders Red",
+    "family": "Ale",
+    "alcohol": 5.0,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/flanders_red-bourgogne-des-flanders.png",
+    "favorite": false
+  },
+  {
+    "id": 29,
+    "name": "Gulden Draak",
+    "type": "Belgian Dark Ale",
+    "family": "Ale",
+    "alcohol": 10.5,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/belgian-_dark_ale-gulden-draak-classic.webp",
+    "favorite": true
+  },
+  {
+    "id": 30,
+    "name": "Ambar IPA",
+    "type": "IPA",
+    "family": "Ale",
+    "alcohol": 5.7,
+    "pais": "España",
+    "img": "json-server/public/data/beers/ambar-ipa-1.png",
+    "favorite": true
+  },
+  {
+    "id": 31,
+    "name": "Old House ESB",
+    "type": "Special Bitter",
+    "family": "Ale",
+    "alcohol": 5.3,
+    "pais": "Nuevo Zelanda",
+    "img": "json-server/public/data/beers/Special_bitter-OldHouse-ESB.webp",
+    "favorite": false
+  },
+  {
+    "id": 32,
+    "name": "Heavy Lifting",
+    "type": "Scottish heavy 70",
+    "family": "Ale",
+    "alcohol": 3.9,
+    "pais": "Escocia",
+    "img": "json-server/public/data/beers/Scottish_heavy_70-heavy-lifting.webp",
+    "favorite": false
+    
+  },
+  {
+    "id": 33,
+    "name": "Downtown Brown",
+    "type": "American Brown",
+    "family": "Ale",
+    "alcohol": 5.0,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/american_brown-downton_brown.webp",
+    "favorite": false
+  },
+  {
+    "id": 34,
+    "name": "Fuller's London Porter",
+    "type": "Brown Porter",
+    "family": "Ale",
+    "alcohol": 5.4,
+    "pais": "UK",
+    "img": "json-server/public/data/beers/fuller_porter.png",
+    "favorite": false
+  },
+  {
+    "id": 35,
+    "name": "St Peter's Cream Stout",
+    "type": "Sweet Stout",
+    "family": "Ale",
+    "alcohol": 6.5,
+    "pais": "UK",
+    "img": "json-server/public/data/beers/st_peters_cream_stout-sweet_stout.webp",
+    "favorite": false 
+  },
+  {
+    "id": 36,
+    "name": "Samuel Smith's",
+    "type": "Imperial Stout",
+    "family": "Ale",
+    "alcohol": 7.0,
+    "pais": "UK",
+    "img": "json-server/public/data/beers/samuel-smith-imperial-stout.png",
+    "favorite": true
+  },
+  {
+    "id": 37,
+    "name": "Bohemia",
+    "type": "Bohemian Pilsner",
+    "family": "Lager",
+    "alcohol": 5.3,
+    "pais": "México",
+    "img": "json-server/public/data/beers/bohemian-pilsner-bohemia.webp",
+    "favorite": true
+  },
+  {
+    "id": 38,
+    "name": "Corona",
+    "type": "American Premium",
+    "family": "Lager",
+    "alcohol": 4.5,
+    "pais": "México",
+    "img": "json-server/public/data/beers/american-premium_Corona.png",
+    "favorite": false
+  },
+  {
+    "id": 39,
+    "name": "Hofbräu",
+    "type": "Munich Dunkel",
+    "family": "Lager",
+    "alcohol": 5.5,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/Munich-dunkel_hofbrau-munchen-dunkel.jpg",
+    "favorite": false
+  },
+  {
+    "id": 40,
+    "name": "Samson",
+    "type": "Traditional Bock",
+    "family": "Lager",
+    "alcohol": 7.0,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/tradional-bock_samson.webp",
+    "favorite": false
+  },
+  {
+    "id": 41,
+  "name": "Ayinger",
+  "type": "Weizenbock",
+  "family": "Ale",
+  "alcohol": 7.1,
+  "pais": "Alemania",
+  "img": "json-server/public/data/beers/ayinger-weizenbock.png",
+  "favorite": false
+  },
+  {
+    "id": 42,
+    "name": "Petrus Rood Bruin",
+    "type": "Oud Bruin",
+    "family": "Ale",
+    "alcohol": 5.5,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/Qudbruin_petrus-roodbruin.webp",
+    "favorite": false
+  },
+  {
+    "id": 43,
+    "name": "La Trappe",
+    "type": "Dubbel",
+    "family": "Ale",
+    "alcohol": 7.0,
+    "pais": "Holanda",
+    "img": "json-server/public/data/beers/la-trappe-dubbel.png",
+    "favorite": false
+  },
+  {
+    "id": 44,
+    "name": "Althaia Cornamusa",
+    "type": "American Amber Ale",
+    "family": "Ale",
+    "alcohol": 5.7,
+    "pais": "España",
+    "img": "json-server/public/data/beers/cornamusa-1.png",
+    "favorite": false
+  },
+  {
+    "id": 45,
+    "name": "De Ranke XX Bitter",
+    "type": "Extra Special Bitter",
+    "family": "Ale",
+    "alcohol": 6.0,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/Extra-special-bitter_de-ranke-xx-bitter.png",
+    "favorite": false
+  },
+  {
+    "id": 46,
+    "name": "Fierce Beer",
+    "type": "Scottish export 80",
+    "family": "Ale",
+    "alcohol": 5.6,
+    "pais": "Escocia",
+    "img": "json-server/public/data/beers/Fierce-Export-Scottish-Ale.png",
+    "favorite": false
+  },
+  {
+    "id": 47,
+    "name": "Newcastle Brown Ale",
+    "type": "English Brown Ale",
+    "family": "Ale",
+    "alcohol": 4.7,
+    "pais": "UK",
+    "img": "json-server/public/data/beers/newcastle-brown-ale.png",
+    "favorite": false
+  },
+  {
+    "id": 48,
+    "name": "Port city Porter",
+    "type": "Robust Porter",
+    "family": "Ale",
+    "alcohol": 7.2,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/Port-City-Robust-Porter.png",
+    "favorite": false
+  },
+  {
+    "id": 49,
+    "name": "East Brother",
+    "type": "Oatmeal Stout",
+    "family": "Ale",
+    "alcohol": 6.0,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/East-Brother_OatmealStout.png",
+    "favorite": false
+  },
+  {
+    "id": 50,
+    "name": "Dimitri",
+    "type": "Russian Imperial Stout",
+    "family": "Ale",
+    "alcohol": 10.4,
+    "pais": "España",
+    "img": "json-server/public/data/beers/dimitri-removebg-preview.png",
+    "favorite": true
+  },
+  {
+    "id": 51,
+    "name": "Coors",
+    "type": "American Pilsner",
+    "family": "Lager",
+    "alcohol": 4.2,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/coors.png",
+    "favorite": false
+  },
+  {
+    "id": 52,
+    "name": "Leinenkugel",
+    "type": "American Dark Lager",
+    "family": "Lager",
+    "alcohol": 4.9,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/AmericanDarkLarger_leinenkugel.png",
+    "favorite": false 
+  },
+  {
+    "id": 53,
+    "name": "Kostriker",
+    "type": "Schwarzbier",
+    "family": "Lager",
+    "alcohol": 4.8,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/kostritzer.png",
+    "favorite": true
+  },
+  {
+    "id": 54,
+    "name": "Schneider Aventinus",
+    "type": "Eisbock",
+    "family": "Lager",
+    "alcohol": 12.0,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/schneider-aventinus-eisbock.png",
+    "favorite": true
+  },
+  {
+    "id": 55,
+    "name": "Fruh",
+    "type": "Kolsch",
+    "family": "Mixed",
+    "alcohol": 4.8,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/Kolsch-fruh.webp",
+    "favorite": false
+  },
+  {
+    "id": 56,
+    "name":"La Goudale",
+    "type": "Biere de Garde",
+    "family": "Mixed",
+    "alcohol": 7.2,
+    "pais": "Francia",
+    "img": "json-server/public/data/beers/La-goudale-removebg-preview.png",
+    "favorite": false
+  },
+  {
+    "id": 57,
+    "name": "Paulaner Oktoberfest",
+    "type": "Oktoberfest",
+    "family": "Mixed",
+    "alcohol": 6.0,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/paulaner_oktoberfest.png",
+    "favorite": false
+  },
+  {
+    "id": 58,
+    "name": "Antiga Cream Ale",
+    "type": "Cream Ale",
+    "family": "Mixed",
+    "alcohol": 5.0,
+    "pais": "España",
+    "img": "json-server/public/data/beers/antiga-cream-ale.jpg",
+    "favorite": false
+  },
+  {
+    "id": 59,
+    "name": "Gulden Draak Smoked",
+    "type": "Smoked Beer",
+    "family": "Mixed",
+    "alcohol": 10.5,
+    "pais": "Belgica",
+    "img": "json-server/public/data/beers/gulden-draak-smoked-33cl.webp",
+    "favorite": true
+  },
+  {
+    "id": 60,
+    "name": "1698",
+    "type": "English Old Strong Ale",
+    "family": "Mixed",
+    "alcohol": 6.5,
+    "pais": "UK",
+    "img": "json-server/public/data/beers/1698-english-old-strong-beer.avif",
+    "favorite": false
+  },
+  {
+    "id": 61,
+    "name": "Uerige",
+    "type": "Altbier",
+    "family": "Mixed",
+    "alcohol": 4.7,
+    "pais": "Alemania",
+    "img": "json-server/public/data/beers/Uerige-Altbier.png",
+    "favorite": false
+  },
+  {
+    "id": 62,
+    "name": "Gösser",
+    "type": "Vienna Lager",
+    "family": "Mixed",
+    "alcohol": 5.2,
+    "pais": "Austria",
+    "img": "json-server/public/data/beers/Gosser__vienna-removebg-preview.png",
+    "favorite": false
+  },
+  {
+    "id": 63,
+    "name": "Anchor Steam",
+    "type": "Steam Beer",
+    "family": "Mixed",
+    "alcohol": 4.9,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/anchor_steam_beer.webp",
+    "favorite": false
+  },
+  {
+    "id": 64,
+    "name": "Sierra Nevada Bigfoot",
+    "type": "Barleywine",
+    "family": "Mixed",
+    "alcohol": 9.6,
+    "pais": "EEUU",
+    "img": "json-server/public/data/beers/sierra-nevada-bigfoot-removebg-preview.png",
+    "favorite": true
+  },
+  {
+    "id": 65,
+    "name": "Tennents scotch ale",
+    "type": "Scotch Ale",
+    "family": "Mixed",
+    "alcohol": 6.0,
+    "pais": "Escocia",
+    "img": "json-server/public/data/beers/tennent-s-scotch-ale-33cl-removebg-preview.png",
+    "favorite": false
   }
-}
+]
+  
