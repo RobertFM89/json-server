@@ -8,6 +8,7 @@ import { Low } from 'lowdb'
 import { json } from 'milliparsec'
 import sirv from 'sirv'
 
+
 import { Data, isItem, Service } from './service.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -35,6 +36,8 @@ export function createApp(db: Low<Data>, options: AppOptions = {}) {
   options.static
     ?.map((path) => (isAbsolute(path) ? path : join(process.cwd(), path)))
     .forEach((dir) => app.use(sirv(dir, { dev: !isProduction })))
+
+    
 
   // CORS
   app

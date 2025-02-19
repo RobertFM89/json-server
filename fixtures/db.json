@@ -19,7 +19,7 @@
     "family": "Ale",
     "alcohol": 3.5,
     "pais": "Belgica",
-    "img": "json-server/public/data/beers/Lindemans-removebg-preview.png",
+    "img": "https://res.cloudinary.com/dydrzxroj/image/upload/v1739974661/va8oqs68plhsy4tgoyno.avif",
     "favorite": false
   },
   {

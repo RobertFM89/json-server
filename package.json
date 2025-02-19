@@ -62,6 +62,7 @@
     "lowdb": "^7.0.1",
     "milliparsec": "^4.0.0",
     "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
     "sirv": "^2.0.4",
     "sort-on": "^6.1.0"
   }
